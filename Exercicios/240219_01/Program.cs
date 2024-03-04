@@ -1,4 +1,6 @@
-﻿string message1 = null;
+﻿using System.Reflection.Metadata;
+
+string message1 = null;
 
 string message2 = null;
 
@@ -20,4 +22,20 @@ Console.WriteLine("Qual é o seu nome? ");
 name = Console.ReadLine();
 string resultado = $"Oi, {name} ! Pare de malandragem !";
 Console.WriteLine(resultado);
+
 //Lucas é um estudante de computação.
+
+// substituindo conteúdo de strings
+
+string nomeCompleto = "LucasMorais";
+nomeCompleto  = nomeCompleto.Replace("Morais", "king");
+Console.WriteLine(nomeCompleto);
+
+bool isNomeEqual1 = (nomeCompleto == "Lucas Morais" );
+
+bool isNomeEqual2 = (nomeCompleto == "Lucas Morais"); 
+
+string.Equals(nomeCompleto, "Lucas King");
+
+Console.WriteLine(nomeCompleto);
+
