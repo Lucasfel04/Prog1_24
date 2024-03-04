@@ -20,4 +20,4 @@ Console.WriteLine("Qual é o seu nome? ");
 name = Console.ReadLine();
 string resultado = $"Oi, {name} ! Pare de malandragem !";
 Console.WriteLine(resultado);
-
+//Lucas é um estudante de computação.
